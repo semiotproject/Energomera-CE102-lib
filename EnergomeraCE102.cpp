@@ -2,7 +2,8 @@
 
 EnergomeraCE102::EnergomeraCE102()
 {
-
+    pinMode(SerialTxControl, OUTPUT);
+    digitalWrite(SerialTxControl, RS485Receive);
 }
 
 void EnergomeraCE102::BadCommand() {

@@ -1,6 +1,10 @@
 #ifndef ENERGOMERACE102_H
 #define ENERGOMERACE102_H
 
+#include <stdint.h>
+#include <Arduino.h>
+
+// TODO: C++11 function
 // RS485 to Serial Converter PROTOCOL:
 #define SerialTxControl 2 // GPIO 2
 #define RS485Transmit    HIGH
